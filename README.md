@@ -27,4 +27,4 @@ is present in the input is shown. This is achieved by writing a suitable query w
 ...................................................................................................................................................................................
 # NOTE:
 <br>
-Content type , authourization , url in ablove code has been modified.
+Content type , authourization , url in above code has been modified.
