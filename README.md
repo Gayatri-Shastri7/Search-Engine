@@ -25,3 +25,6 @@ Learning Outcomes: When a user gives a sentence or paragraph as input, then the 
 is present in the input is shown. This is achieved by writing a suitable query which should be in JSON format. 
 <br>
 ...................................................................................................................................................................................
+# NOTE:
+<br>
+Content type , authourization , url in ablove code has been modified.
