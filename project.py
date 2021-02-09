@@ -2,11 +2,11 @@
 import requests
 import json
 def get_raw_skills(description):
-    url = "http://51.222.9.184:36540/taxonomy/_search"
+    url = "http://51.222.9.184:36540/enter index/_search"
     payload = "{\r\n    \"query\": {\r\n        \"bool\": {\r\n            \"must\": [\r\n                {\r\n                    \"match\": {\r\n     \"Keyword\": \" "+ description +" \" \r\n   }\r\n                }\r\n            ]\r\n        }\r\n    },\r\n    \"size\": 0,\r\n    \"aggs\": {\r\n        \"jobFunctions\": {\r\n            \"terms\": {\r\n                \"field\": \"Keyword.keyword\",\r\n                \"size\": 500\r\n            }\r\n        }\r\n    }\r\n}"
     HEADERS = {
-        'Content-Type': "application/json",
-        'Authorization': "Basic ZWxhc3RpYzplbGFzdGljcEAkJHdvcmQ="
+        'Content-Type': "Enter here",
+        'Authorization': "Enter here"
         }
     response = requests.request("POST", url, data=payload.encode('utf-8'), headers=HEADERS)
     response_json = json.loads(response.text)
