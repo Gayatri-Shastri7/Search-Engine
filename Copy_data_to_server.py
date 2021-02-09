@@ -19,8 +19,8 @@ def load_csv():
 def copy_to_new_elastic(temp):
     print("copying to new elastic index started")
     HEADERS = {
-        'content-type':'application/json',
-        'Authorization': 'Basic ZWxhc3RpYzplbGFzdGljcEAkJHdvcmQ='
+        'content-type':'Enter here',
+        'Authorization': 'Enter here'
         }
     es = Elasticsearch(hosts=[copy_url], timeout=5000, headers=HEADERS)
     data = []
