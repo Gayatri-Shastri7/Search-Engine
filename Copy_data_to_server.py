@@ -6,7 +6,7 @@ from elasticsearch.helpers import bulk
 import uuid
 
 extract_url = 'http://localhost:9200/skills_taxonomy'
-copy_url = 'http://51.222.9.184:36540/'
+copy_url = 'http://enter elasticsearch_url here/'
 
 
 def load_csv():
