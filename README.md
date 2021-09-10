@@ -25,6 +25,9 @@ Learning Outcomes: When a user gives a sentence or paragraph as input, then the 
 is present in the input is shown. This is achieved by writing a suitable query which should be in JSON format. 
 <br>
 ...................................................................................................................................................................................
+# Presentation: 
+https://docs.google.com/presentation/d/1JjG696WtG_nzrE6Va5lSdi9VV3adHAfFV-wUxU5xZSM/edit?usp=sharing
+<br>
 # NOTE:
 <br>
 Content type , authourization , url in above code has been modified.
